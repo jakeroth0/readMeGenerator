@@ -37,7 +37,7 @@ inquirer
         type: 'list',
         message: 'What kind of license should your project have?',
         name: 'license',
-        choices: ["MIT", "not MIT","Third Option"],
+        choices: ["MIT", "GPL","Apache","n/a"],
         default: [0],
     },
     {
@@ -68,7 +68,9 @@ inquirer
   .then((userAnswers) => {
     // console.log('Success!')
     const addAnswersToMarkDown = markDown.generateMarkdown(userAnswers);
-    // console.log(addAnswersToMarkDown);
+    // const addLicense = markDown.renderLicenseBadge(userAnswers.license);
+    // markDown.renderLicenseBadge(userAnswers);
+    // console.log(userAnswers.license);
     fs.writeFile('README.md', addAnswersToMarkDown, (err) =>
   err ? console.error(err) : console.log('Generating README...')
 );
