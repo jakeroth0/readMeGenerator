@@ -37,7 +37,7 @@ inquirer
         type: 'list',
         message: 'What kind of license should your project have?',
         name: 'license',
-        choices: ["MIT", "GPL","Apache","n/a"],
+        choices: ["MIT", "GPL","Apache",""],
         default: [0],
     },
     {
