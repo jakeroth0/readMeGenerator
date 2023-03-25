@@ -6,20 +6,24 @@
   This application uses node.js and inquirer to take a user's input through a cli and generates a README file
 
   ## Table of Contents
+  - [Link](#Link)
   - [Installation](#Installation)
   - [Usage](#Usage)
   - [License](#License)
   - [Contributing](#Contributing)
   - [Tests](#Tests)
   - [Questions](#Questions)
+
+  ## Link
+  [Video_Demo](https://drive.google.com/file/d/1WwYCFrRM8auoa8qQiGF0YVJYuqu0jeGk/view?usp=share_link)
   
-  ## Installation
+   ## Installation
   To install necessary dependencies, run the following command:
 
   ` npm i `
 
   ## Usage
-  run npm test
+  make sure you're in the root of the Develop dir and type `node index.js` to run the readme generator in the cli.
 
   ## License
   MIT

@@ -66,7 +66,7 @@ inquirer
     },
   ])
   .then((userAnswers) => {
-    // console.log('Success!')
+    console.log(userAnswers);
     const addAnswersToMarkDown = markDown.generateMarkdown(userAnswers);
     // const addLicense = markDown.renderLicenseBadge(userAnswers.license);
     // markDown.renderLicenseBadge(userAnswers);
@@ -78,6 +78,7 @@ inquirer
     // Use user feedback for... whatever!!
   })
   .catch((error) => {
+    con
     if (error.isTtyError) {
       // Prompt couldn't be rendered in the current environment
     } else {

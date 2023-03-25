@@ -76,12 +76,18 @@ function generateMarkdown(userAnswers) {
   ${userAnswers.description}
 
   ## Table of Contents
+  - [Link](#Link)
   - [Installation](#Installation)
   - [Usage](#Usage)
   - [License](#License)
   - [Contributing](#Contributing)
   - [Tests](#Tests)
   - [Questions](#Questions)
+
+  ![Thumbnail](insert relitive path to img here)
+
+  ## Link
+  [Link](insert link to deployed app or video here)
   
   ## Installation
   To install necessary dependencies, run the following command:
